@@ -11,5 +11,9 @@ class Usuario:
     def listarTareas(self):
         for tarea in self.tareas:
             if tarea.estaLista():
+<<<<<<< HEAD
                 print(f"La tarea {tarea.obtenerNombre()} está lista")
                 print(f"La tarea {tarea.obtenerNombre()} no está lista")
+=======
+                print(f"[X] {tarea.obtenerNombre()}" )
+>>>>>>> f63c7ee6ff0dc16d1dec51e23921429f7a3b604c
